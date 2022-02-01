@@ -4,7 +4,7 @@ const bot = mineflayer.createBot({
     host: 'ult9.falix.gg',
     port: 39938,
     version: "1.17.1",
-    username: 'Nein',
+    username: 'Lea',
     //auth: "mojang"
 });
 
