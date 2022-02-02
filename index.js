@@ -21,7 +21,7 @@ bot.on('kicked', console.log)
 bot.on('error', console.log)
 
 
-bot.setControlState("jump", true);
+bot.setControlState("forward", true);
 
 bot.on("move", ()=>{
     let friend = bot.nearestEntity();
