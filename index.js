@@ -17,11 +17,14 @@ bot.once("spawn", ()=>{
     bot.chat("/server mainworld")
 })
 
+
+bot.setControlState("jump", true);
+
 bot.on('kicked', console.log)
 bot.on('error', console.log)
 
 
-bot.setControlState("forward", true);
+bot.setControlState("jump", true);
 
 bot.on("move", ()=>{
     let friend = bot.nearestEntity();
